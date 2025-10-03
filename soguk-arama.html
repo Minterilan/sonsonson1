@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soğuk Arama - TalepGetir</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <!-- Top banner -->
+        <div class="banner">
+            <span>Kime satacağını bil - İhracat Lead Listeleri</span>
+        </div>
+        
+        <!-- Main navigation -->
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-content">
+                    <!-- Logo -->
+                    <div class="logo">
+                        <a href="index.html">TalepGetir</a>
+                    </div>
+
+                    <!-- Desktop Navigation -->
+                    <div class="nav-menu" id="nav-menu">
+                        <div class="dropdown">
+                            <a href="#hizmetlerimiz" class="nav-link dropdown-toggle">
+                                HİZMETLERİMİZ <i class="fas fa-chevron-down"></i>
+                            </a>
+                                                                                     <div class="dropdown-menu">
+                                <a href="musteri-listesi.html">
+                                    <i class="fas fa-users"></i>
+                                    <span class="service-title">Müşteri Listesi</span>
+                                    <small>Yurtdışından ürününüzü satın alan müşteri listesi</small>
+                                </a>
+                                <a href="soguk-email.html">
+                                    <i class="fas fa-envelope"></i>
+                                    <span class="service-title">Soğuk E-posta Pazarlama</span>
+                                    <small>Gürültüyü aşan e-posta kampanyaları ile görüşme rezervasyonları</small>
+                                </a>
+                                <a href="soguk-arama.html">
+                                    <i class="fas fa-phone"></i>
+                                    <span class="service-title">Soğuk Arama</span>
+                                    <small>Doğrudan telefon iletişimi ile %30 daha fazla randevu</small>
+                                </a>
+                                <a href="randevu-ayarlama.html">
+                                    <i class="fas fa-calendar-check"></i>
+                                    <span class="service-title">Randevu Ayarlama</span>
+                                    <small>Karar vericilerle güvenli toplantılar ve stabil satış hattı</small>
+                                </a>
+                            </div>
+                        </div>
+                        <a href="nasil-calisir.html" class="nav-link">NASIL ÇALIŞIR</a>
+                        <a href="index.html#sonuclar" class="nav-link">SONUÇLAR</a>
+                        <a href="index.html#referanslar" class="nav-link">REFERANSLAR</a>
+                        <a href="index.html#fiyatlar" class="nav-link">FİYATLAR</a>
+                        <a href="index.html#iletisim" class="nav-link">İLETİŞİM</a>
+                    </div>
+
+                    <!-- Contact Button -->
+                    <div class="nav-cta">
+                        <a href="#iletisim" class="btn-primary">İLETİŞİME GEÇ</a>
+                    </div>
+
+                    <!-- Mobile menu button -->
+                    <div class="mobile-menu-btn" id="mobile-menu-btn">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Service Hero Section -->
+    <section class="service-hero">
+        <div class="container">
+            <div class="service-hero-content">
+                <div class="service-icon">
+                    <i class="fas fa-phone"></i>
+                </div>
+                <h1>Soğuk Arama</h1>
+                <p class="service-subtitle">
+                    Doğrudan telefon iletişimi ile %30 daha fazla randevu ayarlayın
+                </p>
+                <div class="service-hero-buttons">
+                    <button class="btn-primary btn-large">HEMEN BAŞLA</button>
+                    <a href="index.html" class="btn-secondary btn-large">
+                        Ana Sayfa <i class="fas fa-arrow-left"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hero Extended Section -->
+    <section class="cold-calling-hero">
+        <div class="container">
+            <div class="cold-calling-hero-content">
+                <div class="hero-main-content">
+                    <h2>Cold Calling ile Sadece Arama Değil, Satış Fırsatları Yaratın</h2>
+                    <p class="hero-subtitle">
+                        Veriye dayalı stratejiler ve çok kanallı yaklaşımımızla, karar vericilere doğrudan ulaşın ve satış huninizi 
+                        <strong>nitelikli potansiyel müşterilerle</strong> doldurun.
+                    </p>
+                    <div class="hero-cta-buttons">
+                        <button class="btn-primary btn-large">ÜCRETSİZ DANIŞMANLIK AL</button>
+                        <button class="btn-secondary btn-large">DEMO TALEP ET</button>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <!-- Görsel alanı: Cold calling dashboard -->
+                    <div class="image-placeholder">
+                        <i class="fas fa-phone-volume"></i>
+                        <span>AI Destekli Arama Sistemi</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-choose-section">
+        <div class="container">
+            <h2>Neden Cold Calling Hizmetimizi Tercih Etmelisiniz?</h2>
+            <div class="before-after-comparison">
+                <div class="before-card">
+                    <div class="before-icon">
+                        <i class="fas fa-times-circle"></i>
+                    </div>
+                    <h3>Geçmişte Yaşadıklarınız</h3>
+                    <div class="comparison-item">
+                        <i class="fas fa-times"></i>
+                        <span>Düşük bağlantı oranları ve boşa harcanan kaynaklar</span>
+                    </div>
+                    <div class="comparison-item">
+                        <i class="fas fa-times"></i>
+                        <span>Verimsiz arama süreçleri</span>
+                    </div>
+                    <div class="comparison-item">
+                        <i class="fas fa-times"></i>
+                        <span>Yanlış hedefleme ve zaman kaybı</span>
+                    </div>
+                </div>
+                
+                <div class="after-card">
+                    <div class="after-icon">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <h3>TalepGetir ile Yaşayacaklarınız</h3>
+                    <div class="comparison-item">
+                        <i class="fas fa-check"></i>
+                        <span>Yapay zeka destekli altyapı ve uzman ekiple satış fırsatları</span>
+                    </div>
+                    <div class="comparison-item">
+                        <i class="fas fa-check"></i>
+                        <span>Optimize edilmiş süreçler ve yüksek verimlilik</span>
+                    </div>
+                    <div class="comparison-item">
+                        <i class="fas fa-check"></i>
+                        <span>Doğru hedefleme ve maksimum ROI</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="key-benefits-grid">
+                <div class="key-benefit-item">
+                    <div class="benefit-icon">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <h4>Karar Vericilere Doğrudan Erişim</h4>
+                    <p>Uzman ekibimizle doğru kişilere, doğru zamanda ulaşın</p>
+                </div>
+                
+                <div class="key-benefit-item">
+                    <div class="benefit-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h4>Zaman ve Maliyet Tasarrufu</h4>
+                    <p>Etkili süreçlerle kaynaklarınızı optimize edin</p>
+                </div>
+                
+                <div class="key-benefit-item">
+                    <div class="benefit-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h4>Daha Fazla Toplantı, Daha Fazla Satış</h4>
+                    <p>Nitelikli lead'lerle satış fırsatlarınızı artırın</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Method and Technology Section -->
+    <section class="method-technology-section">
+        <div class="container">
+            <div class="method-header">
+                <h2>Veriye Dayalı, Çok Kanallı ve Optimize Edilmiş Cold Calling Süreci</h2>
+                <p class="method-subtitle">
+                    AI destekli araçlar ve stratejik iletişim teknikleri ile satış sürecinizi uçtan uca yönetiyoruz.
+                </p>
+            </div>
+            
+            <div class="method-features">
+                <div class="method-feature">
+                    <div class="method-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>🤖 AI Destekli Satış Platformu</h3>
+                    <p>ICP'nize uygun mesajlar ve temas stratejisi ile her aramayı optimize ediyoruz</p>
+                    <div class="method-image">
+                        <!-- Görsel alanı: AI platform -->
+                        <div class="image-placeholder small">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="method-feature">
+                    <div class="method-icon">
+                        <i class="fas fa-bullseye"></i>
+                    </div>
+                    <h3>🎯 Sinyal Tabanlı Lead Listesi</h3>
+                    <p><strong>3.000+ satın alma sinyaliyle</strong> hedefleme yaparak en uygun adayları belirleriz</p>
+                    <div class="method-image">
+                        <!-- Görsel alanı: Lead targeting -->
+                        <div class="image-placeholder small">
+                            <i class="fas fa-crosshairs"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="method-feature">
+                    <div class="method-icon">
+                        <i class="fas fa-phone-volume"></i>
+                    </div>
+                    <h3>📞 Auto/Power Dialer</h3>
+                    <p>Daha yüksek bağlantı oranı sağlayan otomatik arama sistemiyle verimliliği artırıyoruz</p>
+                    <div class="method-image">
+                        <!-- Görsel alanı: Dialer system -->
+                        <div class="image-placeholder small">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="method-feature">
+                    <div class="method-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h3>🧠 Gerçek Zamanlı Mesaj Optimizasyonu</h3>
+                    <p>Anlık geri bildirimlerle iyileştirilen mesajlar sayesinde daha etkili konuşmalar gerçekleştiriyoruz</p>
+                    <div class="method-image">
+                        <!-- Görsel alanı: Message optimization -->
+                        <div class="image-placeholder small">
+                            <i class="fas fa-edit"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="method-feature">
+                    <div class="method-icon">
+                        <i class="fas fa-share-alt"></i>
+                    </div>
+                    <h3>🔄 Omnichannel İletişim</h3>
+                    <p><strong>Cold call + E-posta + LinkedIn</strong> entegrasyonu ile çok kanallı etkileşim sağlıyoruz</p>
+                    <div class="method-image">
+                        <!-- Görsel alanı: Omnichannel -->
+                        <div class="image-placeholder small">
+                            <i class="fas fa-network-wired"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Process Section -->
+    <section class="service-process-section">
+        <div class="container">
+            <h2>2 Hafta İçinde Sonuç Odaklı Kampanyanızı Başlatın</h2>
+            <p class="process-intro">3 Kolay Adımda Başlayın</p>
+            
+            <div class="process-timeline">
+                <div class="process-step-large">
+                    <div class="step-header">
+                        <div class="step-number-xl">1</div>
+                        <h3>Onboarding</h3>
+                    </div>
+                    <div class="step-content-large">
+                        <p><strong>Hedef müşteri profili ve pazar analizinin yapılması</strong></p>
+                        <ul>
+                            <li>İdeal müşteri profili (ICP) tanımlaması</li>
+                            <li>Pazar segmentasyonu ve analizi</li>
+                            <li>Rekabet analizi ve positioning</li>
+                        </ul>
+                    </div>
+                    <div class="step-image-large">
+                        <!-- Görsel alanı: Onboarding process -->
+                        <div class="image-placeholder">
+                            <i class="fas fa-user-check"></i>
+                            <span>Müşteri Profili Analizi</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="process-step-large">
+                    <div class="step-header">
+                        <div class="step-number-xl">2</div>
+                        <h3>Strateji Oluşturma</h3>
+                    </div>
+                    <div class="step-content-large">
+                        <p><strong>Kanallar arası entegre mesaj ve akış planı</strong></p>
+                        <ul>
+                            <li>Çok kanallı iletişim stratejisi</li>
+                            <li>Kişiselleştirilmiş mesaj şablonları</li>
+                            <li>Arama zamanlaması ve optimizasyon</li>
+                        </ul>
+                    </div>
+                    <div class="step-image-large">
+                        <!-- Görsel alanı: Strategy planning -->
+                        <div class="image-placeholder">
+                            <i class="fas fa-chess"></i>
+                            <span>Strateji Geliştirme</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="process-step-large">
+                    <div class="step-header">
+                        <div class="step-number-xl">3</div>
+                        <h3>Kampanya Başlatma</h3>
+                    </div>
+                    <div class="step-content-large">
+                        <p><strong>AI destekli otomasyon + uzman temsilcilerle ulaşım</strong></p>
+                        <ul>
+                            <li>Otomatik arama sistemleri devreye alınır</li>
+                            <li>Uzman temsilciler sahaya çıkar</li>
+                            <li>Gerçek zamanlı izleme ve optimizasyon</li>
+                        </ul>
+                    </div>
+                    <div class="step-image-large">
+                        <!-- Görsel alanı: Campaign launch -->
+                        <div class="image-placeholder">
+                            <i class="fas fa-rocket"></i>
+                            <span>Kampanya Başlatma</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Success Stories Section -->
+    <section class="success-stories-cold-calling">
+        <div class="container">
+            <h2>Gerçek Sonuçlar, Kanıtlanmış Stratejiler</h2>
+            <p class="success-intro">Sektörel başarı örnekleriyle cold calling'in gücünü keşfedin</p>
+            
+            <div class="success-cases-grid">
+                <div class="success-case-card">
+                    <div class="case-header">
+                        <div class="case-sector-icon">
+                            <i class="fas fa-coins"></i>
+                        </div>
+                        <h3>Fintech Sektörü</h3>
+                    </div>
+                    <div class="case-results">
+                        <div class="case-duration">4 Ay</div>
+                        <div class="case-stats">
+                            <div class="stat">
+                                <span class="stat-number">30.000</span>
+                                <span class="stat-label">Hedef Kişi</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">21</span>
+                                <span class="stat-label">Nitelikli Toplantı</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="success-case-card">
+                    <div class="case-header">
+                        <div class="case-sector-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <h3>IT Pazaryeri</h3>
+                    </div>
+                    <div class="case-results">
+                        <div class="case-duration">5 Ay</div>
+                        <div class="case-stats">
+                            <div class="stat">
+                                <span class="stat-number">14</span>
+                                <span class="stat-label">Toplantı</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">23</span>
+                                <span class="stat-label">Satışa Hazır Lead</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="success-case-card">
+                    <div class="case-header">
+                        <div class="case-sector-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3>Güvenlik Teknolojileri</h3>
+                    </div>
+                    <div class="case-results">
+                        <div class="case-duration">4 Ay</div>
+                        <div class="case-stats">
+                            <div class="stat">
+                                <span class="stat-number">120</span>
+                                <span class="stat-label">Satışa Hazır Lead</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">%85</span>
+                                <span class="stat-label">Kalite Oranı</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section">
+        <div class="container">
+            <h2>Cold Calling'de Bize Güvenen Markalar Neler Söylüyor?</h2>
+            <div class="testimonial-showcase">
+                <div class="testimonial-card">
+                    <div class="testimonial-quote">
+                        <i class="fas fa-quote-left"></i>
+                        <blockquote>
+                            "Daha önce denediğimiz hiçbir ajans bu kadar kısa sürede toplantı getiremedi. 
+                            Sektörü bilen temsilcilerle çalışmak büyük fark yaratıyor."
+                        </blockquote>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <div class="author-name">Ahmet Kaya</div>
+                            <div class="author-title">Satış Direktörü</div>
+                            <div class="author-company">TechFlow Solutions</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-image">
+                    <!-- Görsel alanı: Customer testimonial -->
+                    <div class="image-placeholder">
+                        <i class="fas fa-user-circle"></i>
+                        <span>Müşteri Görüşleri</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Packages Section -->
+    <section class="pricing-packages-section">
+        <div class="container">
+            <h2>İhtiyacınıza Uygun Esnek Hizmet Paketleri</h2>
+            <div class="packages-grid">
+                <div class="package-card">
+                    <div class="package-header">
+                        <h3>Başlangıç Paketi</h3>
+                        <div class="package-icon">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                    <div class="package-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i> Lead listesi oluşturma</li>
+                            <li><i class="fas fa-check"></i> İlk cold calling kampanyası</li>
+                            <li><i class="fas fa-check"></i> Temel raporlama</li>
+                        </ul>
+                    </div>
+                    <div class="package-cta">
+                        <button class="btn-outline">TEKLİF AL</button>
+                    </div>
+                </div>
+                
+                <div class="package-card featured">
+                    <div class="package-header">
+                        <h3>Gelişmiş Paket</h3>
+                        <div class="package-icon">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="popular-badge">En Popüler</div>
+                    </div>
+                    <div class="package-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i> Lead + Cold Calling</li>
+                            <li><i class="fas fa-check"></i> Toplantı planlama</li>
+                            <li><i class="fas fa-check"></i> Omnichannel yaklaşım</li>
+                            <li><i class="fas fa-check"></i> Detaylı analitik</li>
+                        </ul>
+                    </div>
+                    <div class="package-cta">
+                        <button class="btn-primary">TEKLİF AL</button>
+                    </div>
+                </div>
+                
+                <div class="package-card">
+                    <div class="package-header">
+                        <h3>Kurumsal Paket</h3>
+                        <div class="package-icon">
+                            <i class="fas fa-crown"></i>
+                        </div>
+                    </div>
+                    <div class="package-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i> Tüm süreç yönetimi</li>
+                            <li><i class="fas fa-check"></i> Müşteri onboarding</li>
+                            <li><i class="fas fa-check"></i> Hesap yönetimi</li>
+                            <li><i class="fas fa-check"></i> Özel danışman</li>
+                        </ul>
+                    </div>
+                    <div class="package-cta">
+                        <button class="btn-outline">FİYAT BİLGİSİ İSTE</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA Section -->
+    <section class="final-cta-section">
+        <div class="container">
+            <div class="final-cta-content">
+                <h2>Cold Calling ile Satış Huninizi Doldurmaya Hazır mısınız?</h2>
+                <p>Ekibimizle <strong>15 dakikalık ücretsiz bir görüşme</strong> planlayarak nasıl yardımcı olabileceğimizi keşfedin.</p>
+                <div class="final-cta-buttons">
+                    <button class="btn-primary btn-large">ÜCRETSİZ DANIŞMANLIK AL</button>
+                    <button class="btn-secondary btn-large">HEMEN BAŞLAYIN</button>
+                </div>
+                <div class="cta-features">
+                    <div class="cta-feature">
+                        <i class="fas fa-clock"></i>
+                        <span>15 Dakika</span>
+                    </div>
+                    <div class="cta-feature">
+                        <i class="fas fa-gift"></i>
+                        <span>Ücretsiz</span>
+                    </div>
+                    <div class="cta-feature">
+                        <i class="fas fa-handshake"></i>
+                        <span>Taahhütsüz</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <!-- Main Footer -->
+        <div class="footer-main">
+            <div class="container">
+                <div class="footer-grid">
+                    <!-- Company Info -->
+                    <div class="footer-column">
+                        <div class="footer-logo">TalepGetir</div>
+                        <p>İhracat lead listeleri ile satışlarınızı büyütün.</p>
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <i class="fas fa-phone"></i>
+                                <span>Tel: +90 XXX XXX XX XX</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <span>info@talepgetir.com</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Services Links -->
+                    <div class="footer-column">
+                        <h4>Hizmetlerimiz</h4>
+                        <div class="footer-links">
+                            <a href="randevu-ayarlama.html">Randevu Ayarlama</a>
+                            <a href="soguk-email.html">Soğuk E-posta Pazarlama</a>
+                            <a href="soguk-arama.html">Soğuk Arama</a>
+                            <a href="musteri-listesi.html">Müşteri Listesi</a>
+                        </div>
+                    </div>
+
+                    <!-- Additional Links -->
+                    <div class="footer-column">
+                        <h4>Destek</h4>
+                        <div class="footer-links">
+                            <a href="nasil-calisir.html">Nasıl Çalışır</a>
+                            <a href="#">SSS</a>
+                            <a href="#">İletişim</a>
+                            <a href="#">Blog</a>
+                            <a href="#">Gizlilik Politikası</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-bottom">
+                    <div class="footer-description">
+                        <h4>TalepGetir - İhracat Lead Platformu</h4>
+                        <p>
+                            Kime satacağını bil. TalepGetir ile hedeflenmiş ihracat lead listeleri edinin ve satışlarınızı büyütün.
+                        </p>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="#">LinkedIn</a>
+                        <a href="#">Instagram</a>
+                    </div>
+                </div>
+                
+                <div class="footer-cta">
+                    <button class="btn-primary">İLETİŞİME GEÇ</button>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 

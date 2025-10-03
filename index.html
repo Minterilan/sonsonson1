@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PeakPurple - İhracat Lead Listeleri</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <!-- Top banner -->
+        <div class="banner">
+            <span>Kime satacağını bil - İhracat Lead Listeleri</span>
+        </div>
+        
+        <!-- Main navigation -->
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-content">
+                    <!-- Logo -->
+                    <div class="logo">
+                        <a href="index.html">PeakPurple</a>
+                    </div>
+
+                    <!-- Desktop Navigation -->
+                    <div class="nav-menu" id="nav-menu">
+                        <a href="musteri-listesi.html" class="nav-link">
+                            HİZMETLERİMİZ
+                        </a>
+                        <a href="nasil-calisir.html" class="nav-link">NASIL ÇALIŞIR</a>
+                        <a href="iletisim.html" class="nav-link">İLETİŞİM</a>
+                    </div>
+
+                    <!-- Contact Button -->
+                    <div class="nav-cta">
+                        <a href="iletisim.html" class="btn-primary">İLETİŞİME GEÇ</a>
+                    </div>
+
+                    <!-- Mobile menu button -->
+                    <div class="mobile-menu-btn" id="mobile-menu-btn">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <!-- Main Hero -->
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="text-primary">Kime satacağını bil.</span>
+                </h1>
+                <p class="hero-subtitle">
+                    HS kodu ve rakip analiziyle oluşturulmuş, global alıcı firmalardan oluşan hedeflenmiş ihracat lead listeleri sunuyoruz.
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn-primary btn-large">NASIL ÇALIŞTIĞINI GÖR</button>
+                    <a href="#sonuclar" class="btn-secondary btn-large">
+                        Sonuçları Gör <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Problems Section -->
+            <div class="problems-section">
+                <h2 class="section-title">Bu durumlardan hangisi size tanıdık geliyor?</h2>
+                
+                <div class="problems-grid" id="problems-grid">
+                    <div class="problem-item" data-id="fuar-problemi">
+                        <div class="problem-content">
+                            <h3>"Fuar dediler, katıldık... ama herkes katalog alıp kaçtı."</h3>
+                            <p>Fuarlara katıldın. On binlerce lira harcadın. Standını kurdun, numuneni götürdün, katalog bastırdın, otelde kaldın...</p>
+                            <p><strong>Sonuç?</strong></p>
+                            <p>Yan stantta kendi ülkesinden biriyle sohbet eden 100 kişi. Gerçek müşteri sayısı 2, sipariş sayısı 0.</p>
+                            <p>Üstelik o 2 kişi de zaten fiyat almaya gelmiş herkes gibi — "biz sizi ararız" diyip kayboldu.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="problem-item" data-id="kalite-problemi">
+                        <div class="problem-content">
+                            <h3>"Bizim ürün kaliteli abi, fiyat da uygun ama müşteri yok."</h3>
+                            <p>Kendini bildin bileli üretim yapıyorsun. Ürün taş gibi. Fiyat da rekabetçi. Ama ihracat müşterisi yok.</p>
+                            <p>Çünkü kimse seni bilmiyor.</p>
+                            <p>Çünkü kimse seni aramıyor.</p>
+                            <p>Çünkü kimseye ulaşmıyorsun.</p>
+                            <p>Kaliteyle ihracat olmaz. <strong>Ulaşmadan satış olmaz.</strong></p>
+                        </div>
+                    </div>
+                    
+                    <div class="problem-item" data-id="talepler-problemi">
+                        <div class="problem-content">
+                            <h3>"Gelen taleplerin %90'ı ya 'numune' isteyen ya da dolandırıcı."</h3>
+                            <p>Websiteden biri yazıyor. Mail atıyor. LinkedIn'den selam yolluyor.</p>
+                            <p>İlk başta umutlanıyorsun ama konuşma ilerledikçe fark ediyorsun:</p>
+                            <p>Ya komisyoncu, ya çevirmen, ya "ben sizi Afrika'ya sokarım"cı.</p>
+                            <p>Ha bir de numune isteyen ama geri dönmeyen grubu var.</p>
+                            <p>Sonra yine başa dönüyorsun: <strong>Gerçek müşteri yok.</strong></p>
+                        </div>
+                    </div>
+                    
+                    <div class="problem-item" data-id="ulasim-problemi">
+                        <div class="problem-content">
+                            <h3>"Kime ulaşacağımı bilmiyorum. Biri bana alıcı versin yeter."</h3>
+                            <p>Sen üreticisin. İşi üretmek.</p>
+                            <p>Ama ihracat yapabilmen için karar vericilere ulaşman gerekiyor.</p>
+                            <p>İthalat yapan firmalar kim? Onların satın alma müdürü kim?</p>
+                            <p>Maili ne, LinkedIn'i ne?</p>
+                            <p>Hangi ülkede, hangi firmaya, hangi sektöre gideceksin bilmiyorsun.</p>
+                            <p>Ve en kötüsü: <strong>Bunu senin yerinize yapacak kimse yok.</strong></p>
+                        </div>
+                    </div>
+                    
+                    <div class="problem-item" data-id="zaman-problemi">
+                        <div class="problem-content">
+                            <h3>"Saatlerce görüştük, fiyat yolladık ama adam zaten sadece piyasa araştırıyormuş."</h3>
+                            <p>Sana ulaştı.</p>
+                            <p>Görüştün, fiyat verdin, katalog attın, hatta örnek bile hazırladın.</p>
+                            <p>Ve sonra… Sessizlik.</p>
+                            <p>Haftalarca ses yok.</p>
+                            <p>Meğer adam sadece piyasa öğreniyormuş. Gerçek alıcı değilmiş.</p>
+                            <p>Senin ekibin ise bir "müşteri" için saatlerce çalıştı.</p>
+                            <p><strong>Zaman gitti, motivasyon gitti. Sipariş yok.</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solutions Section -->
+    <section class="solutions">
+        <div class="container">
+            <div class="section-header">
+                <h2>Bizimle çalışanların elde edeceği çıktılar:</h2>
+            </div>
+
+            <div class="solutions-grid">
+                <div class="solution-item">
+                    <div class="solution-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>"İlk defa gerçekten alıcı olan insanlarla konuşmaya başlayacaksın."</h3>
+                    <p>Boşa zaman harcamayacaksın.</p>
+                    <p>Katalog isteyen, 'bilgi alayım' diyen, 'ben size dönerim'ciler yok.</p>
+                    <p><strong>Karşındaki kişi ürününün gerçek alıcısı olacak.</strong></p>
+                </div>
+                
+                <div class="solution-item">
+                    <div class="solution-icon">
+                        <i class="fas fa-list-alt"></i>
+                    </div>
+                    <h3>"Elinde sektörüne, ürününe, fiyat aralığına uyan net bir müşteri listesi olacak."</h3>
+                    <p>Rastgele bir liste değil.</p>
+                    <p>Seninle aynı ürünü satan rakip firmalardan daha önce ürün alan firmaları tespit ediyoruz.</p>
+                    <p><strong>Bu listeyi aldığında hangi ürünü satın alacaklarını bileceksin.</strong></p>
+                </div>
+                
+                <div class="solution-item">
+                    <div class="solution-icon">
+                        <i class="fas fa-map"></i>
+                    </div>
+                    <h3>"Satış ekibin için harita gibi bir rehber olacak."</h3>
+                    <p>Artık ekibin kafasını duvara çarpar gibi 'random müşteri arama' yapmayacak.</p>
+                    <p>Kime ulaşacak, ne yazacak, hangi dilde yazacak, hangi sektöre ne fiyat verecek: hepsi belli.</p>
+                    <p>Yani ekip 'arıyorum ama bilmiyorum' değil, <strong>'şu kişiyi arıyorum çünkü X ürününü almış' diyecek.</strong></p>
+                </div>
+                
+                <div class="solution-item">
+                    <div class="solution-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>"Kendi rakiplerinin satış yaptığı firmalara sen de teklif vereceksin."</h3>
+                    <p>O büyük firmalar var ya, sürekli yurtdışına satış yaptığını duyduğun…</p>
+                    <p>İşte onların müşterilerini senin önüne getiriyoruz.</p>
+                    <p><strong>Aynı müşteri, farklı tedarikçi… Kazanma şansın var.</strong></p>
+                </div>
+                
+                <div class="solution-item">
+                    <div class="solution-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>"Zaman kazanacaksın. Moral kazanacaksın. Sipariş alacaksın."</h3>
+                    <p>Aylarca bir müşteriyi 'belki' sipariş vereceği ümidiyle beklemek yok artık.</p>
+                    <p>Arayacağın firmalar net, göndereceğin teklifler anlamlı, yaptığın görüşmeler somut.</p>
+                    <p><strong>Her aksiyonunun bir karşılığı olacak.</strong></p>
+                </div>
+            </div>
+
+            <div class="section-cta">
+                <button class="btn-primary btn-large">HEMEN BAŞLA</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works CTA Section -->
+    <section class="how-it-works-cta-section">
+        <div class="container">
+            <div class="cta-preview">
+                <div class="cta-preview-content">
+                    <h2>PeakPurple Nasıl Çalışır?</h2>
+                    <p>3 adımda hedeflenmiş ihracat lead listesi ile satış sürecinizi hızlandırın</p>
+                    <div class="preview-steps">
+                        <div class="preview-step">
+                            <div class="step-icon">
+                                <i class="fas fa-users-cog"></i>
+                            </div>
+                            <h4>İdeal Müşteri Profili</h4>
+                            <p>Hangi firmalar sizin ürününüzü satın alır?</p>
+                        </div>
+                        <div class="preview-step">
+                            <div class="step-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <h4>Hedef Müşteri Listesi Oluşturma</h4>
+                            <p>5000-7000 nitelikli alıcı firması</p>
+                        </div>
+                        <div class="preview-step">
+                            <div class="step-icon">
+                                <i class="fas fa-handshake"></i>
+                            </div>
+                            <h4>Doğrudan Temas & Toplantılar</h4>
+                            <p>Sürekli Temas ve Satış Görüşmeleri</p>
+                        </div>
+                    </div>
+                    <div class="preview-cta">
+                        <a href="nasil-calisir.html" class="btn-primary btn-large">DETAYINI KEŞFET</a>
+                        <p class="preview-subtitle">Sürecin tamamını öğrenin</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PeakPurple 4 Step System Section -->
+    <section class="system-overview-home">
+        <div class="container">
+            <div class="system-overview">
+                <h2>PeakPurple 4 Aşamalı Sistem</h2>
+                <p class="system-subtitle">Veri odaklı yaklaşımımızla sistematik satış süreciyle hedeflenmiş ihracat satışları gerçekleştirin</p>
+                
+                <div class="steps-flow">
+                    <div class="step-flow-item">
+                        <div class="step-flow-icon">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <div class="step-flow-content">
+                            <h3>Hedefli Liste Oluşturma</h3>
+                            <h4>450+ milyon doğrulanmış şirket arasından, ICP’nize uygun potansiyel müşterileri seçiyoruz.</h4>
+                            <p>İşiniz için en uygun müşteri profillerini tanımlıyor, satın alma potansiyeli en yüksek firmaları belirliyoruz.</p>
+                        </div>
+                        <div class="step-flow-arrow">
+                            <i class="fas fa-arrow-right"></i>
+                        </div>
+                    </div>
+
+                    <div class="step-flow-item">
+                        <div class="step-flow-icon">
+                            <i class="fas fa-list-alt"></i>
+                        </div>
+                        <div class="step-flow-content">
+                            <h3>AI Destekli Analiz</h3>
+                            <h4 class="text-primary">Yapay zeka ile şirketleri ve karar vericileri detaylı analiz ediyor, verilerine göre kişiye özel mesajlar hazırlıyoruz.</h4>
+                            <p>Sistemimiz internetten firmaları tespit eder, yapay zeka ise bu firmaları analiz ederek bize en uygun olan firmaları listeler.</p>
+                        </div>
+                        <div class="step-flow-arrow">
+                            <i class="fas fa-arrow-right"></i>
+                        </div>
+                    </div>
+
+                    <div class="step-flow-item">
+                        <div class="step-flow-icon">
+                            <i class="fas fa-id-card"></i>
+                        </div>
+                        <div class="step-flow-content">
+                            <h3>Doğrudan Temas</h3>
+                            <h4>Karar verici kişilerle kişiselleştirilmiş e-mailler, telefon görüşmeleri ve LinkedIn üzerinden iletişim kuruyoruz.</h4>
+                            <p>Firma sahibi, satın alım yetkilisi, müdür gibi pozisyonların iletişim bilgilerini listeleriz</p>
+                        </div>
+                        <div class="step-flow-arrow">
+                            <i class="fas fa-arrow-right"></i>
+                        </div>
+                    </div>
+
+                    <div class="step-flow-item">
+                        <div class="step-flow-icon">
+                            <i class="fas fa-handshake"></i>
+                        </div>
+                        <div class="step-flow-content">
+                            <h3>Satış Toplantıları</h3>
+                            <h4>Potansiyel müşterilerle satış toplantıları organize ediyor, dönüşlere göre stratejinizi optimize ediyoruz.</h4>
+                            <p>Potansiyel müşteri firmalarınızdaki karar verici kişiler ile doğrudan temas eder, iş birliği fırsatlarını geliştiririz.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Omnichannel Campaign Highlight -->
+                <div class="omnichannel-highlight">
+                    <div class="omnichannel-content">
+                        <h3>Tüm Kanallarda Kampanya Yönetimi</h3>
+                        <p>4. aşamadan itibaren üç farklı kanal üzerinden sistematik iletişim kuruyoruz:</p>
+                        <div class="channel-details">
+                            <div class="channel-detail">
+                                <div class="channel-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="channel-info">
+                                    <h4>E-mail Kampanyaları</h4>
+                                    <p>İleri düzey kişiselleştirilmiş e-mail serileriyle potansiyel müşterilerinizle sürekli ve etkili temas kuruyoruz.</p>
+                                </div>
+                            </div>
+                            <div class="channel-detail">
+                                <div class="channel-icon">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <div class="channel-info">
+                                    <h4>Potansiyel Müşteri Aramaları</h4>
+                                    <p>Potansiyel müşteri firmalarınızdaki karar verici kişileri arayarak iş birliği fırsatlarını geliştiririz.</p>
+                                </div>
+                            </div>
+                            <div class="channel-detail">
+                                <div class="channel-icon">
+                                    <i class="fab fa-linkedin"></i>
+                                </div>
+                                <div class="channel-info">
+                                    <h4>LinkedIn ile Doğrudan Temas</h4>
+                                    <p>Profesyonel ağ üzerinden hedefli bağlantı kurma</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Results Section -->
+    <section id="sonuclar" class="results">
+        <div class="container">
+            <div class="section-header">
+                <h2>PeakPurple ile <em>gerçek sonuçlar</em> alın.</h2>
+                <p>
+                    Müşterilerimiz PeakPurple Hedef Müşteri listeleri ile ihracat satışlarını büyütüyor.
+                </p>
+            </div>
+
+            <!-- Results Grid -->
+            <div class="results-grid">
+                <div class="result-item">
+                    <div class="result-value">%85</div>
+                    <p>Hedef Müşteri listesinde doğruluk oranı</p>
+                </div>
+                <div class="result-item">
+                    <div class="result-value">%40</div>
+                    <p>Ortalama yanıt alma oranı</p>
+                </div>
+                <div class="result-item">
+                    <div class="result-value">3X</div>
+                    <p>Satış görüşmesi artışı</p>
+                </div>
+                <div class="result-item">
+                    <div class="result-value">%60</div>
+                    <p>Zaman tasarrufu</p>
+                </div>
+                <div class="result-item">
+                    <div class="result-value">500+</div>
+                    <p>Başarılı ihracat bağlantısı</p>
+                </div>
+            </div>
+
+            <!-- Testimonials Carousel -->
+            <div class="testimonials" id="testimonials">
+                <div class="testimonial-content">
+                    <i class="fas fa-quote-left testimonial-quote"></i>
+                    <blockquote class="testimonial-text" id="testimonial-text">
+                        PeakPurple sayesinde hedef müşterilerimize doğrudan ulaşabiliyoruz. Artık boşa zaman harcamıyoruz ve her lead gerçek bir fırsat.
+                    </blockquote>
+                    <div class="testimonial-author" id="testimonial-author">
+                        <div class="author-name">Mehmet Yılmaz</div>
+                        <div class="author-title">İhracat Müdürü, ABC Tekstil</div>
+                    </div>
+                </div>
+
+                <!-- Navigation -->
+                <div class="testimonial-nav">
+                    <button class="nav-btn" id="prev-testimonial">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <div class="nav-dots" id="nav-dots">
+                        <button class="nav-dot active" data-index="0"></button>
+                        <button class="nav-dot" data-index="1"></button>
+                        <button class="nav-dot" data-index="2"></button>
+                        <button class="nav-dot" data-index="3"></button>
+                    </div>
+                    <button class="nav-btn" id="next-testimonial">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <!-- Main Footer -->
+        <div class="footer-main">
+            <div class="container">
+                <div class="footer-grid">
+                    <!-- Company Info -->
+                    <div class="footer-column">
+                        <div class="footer-logo">PeakPurple</div>
+                        <p>İhracat lead listeleri ile satışlarınızı büyütün.</p>
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <i class="fas fa-phone"></i>
+                                <span>Tel: +90 XXX XXX XX XX</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <span>info@peakpurple.com</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Services Links -->
+                    <div class="footer-column">
+                        <h4>Hizmetlerimiz</h4>
+                        <div class="footer-links">
+                            <a href="musteri-listesi.html">Müşteri Listesi</a>
+                        </div>
+                    </div>
+
+                    <!-- Additional Links -->
+                    <div class="footer-column">
+                        <h4>Destek</h4>
+                        <div class="footer-links">
+                            <a href="nasil-calisir.html">Nasıl Çalışır</a>
+                            <a href="sss.html">SSS</a>
+                            <a href="iletisim.html">İletişim</a>
+                            <a href="blog.html">Blog</a>
+                            <a href="gizlilik-politikasi.html">Gizlilik Politikası</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bottom Section -->
+                <div class="footer-bottom">
+                    <div class="footer-description">
+                        <h4>PeakPurple - İhracat Lead Platformu</h4>
+                        <p>
+                            Kime satacağını bil. PeakPurple ile hedeflenmiş ihracat lead listeleri edinin ve satışlarınızı büyütün.
+                        </p>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="#">LinkedIn</a>
+                        <a href="#">Instagram</a>
+                    </div>
+                </div>
+                
+                <div class="footer-cta">
+                    <a href="iletisim.html" class="btn-primary">İLETİŞİME GEÇ</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
